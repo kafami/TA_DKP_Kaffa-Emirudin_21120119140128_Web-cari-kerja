@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #f3f4ee;
+}
+/* navbar */
+.logo{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    background: transparent;
+    color :var(--text-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid grey;
+
+}
+
+.icon_nav{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+/* end navbar */
+
+.outer{
+    padding: 20px 0px;
+}
+
+.outer h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.def{
+    width: 30%;
+    padding: 30px 20px;
+    line-height: 25px;
+    background: white;
+    border-radius: 12px;
+    border-color: 1px gray solid;
+    margin-left: 800px;
+}
+
+.list_job{
+    width: 30%;
+    margin: -190px 10px 10px 200px;
+    padding: 10px 10px 10px 10px;
+    line-height: 25px;
+    background: white;
+    border-radius: 12px;
+    border-color: 1px gray solid;
+}
+
+.job_detail {
+    margin: -140px 10px 10px 800px;
+}
+
+.logo_company{
+    height: 96px;
+    aspect-ratio: 1/1;
+}
